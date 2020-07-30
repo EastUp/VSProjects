@@ -1,0 +1,16 @@
+﻿生成启动时间为 2020/7/29 13:49:18。
+     1>项目“E:\VSProjects\48opencv\48opencv.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt simple.cpp
+         simple.cpp
+     1>simple.cpp(32): warning C4244: “初始化”: 从“float”转换到“uchar”，可能丢失数据
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VSProjects\48opencv\x64\Release\48opencv.exe" /NOLOGO opencv_world440.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\VSProjects\48opencv\x64\Release\48opencv.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VSProjects\48opencv\x64\Release\48opencv.lib" /MACHINE:X64 x64\Release\simple.obj
+         正在生成代码
+         已完成代码的生成
+         48opencv.vcxproj -> E:\VSProjects\48opencv\x64\Release\48opencv.exe
+     1>已完成生成项目“E:\VSProjects\48opencv\48opencv.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.65

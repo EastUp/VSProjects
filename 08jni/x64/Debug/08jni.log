@@ -1,0 +1,17 @@
+﻿生成启动时间为 2020/6/18 11:28:08。
+     1>项目“E:\VSProjects\08jni\08jni.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt Sample.c
+         Sample.c
+     1>Sample.c(14): warning C4090: “初始化”: 不同的“const”限定符
+     1>Sample.c(17): warning C4133: “函数”: 从“char *”到“const jchar *”的类型不兼容
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VSProjects\08jni\x64\Debug\08jni.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\VSProjects\08jni\x64\Debug\08jni.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VSProjects\08jni\x64\Debug\08jni.lib" /MACHINE:X64 x64\Debug\Sample.obj
+         LINK : 没有找到 E:\VSProjects\08jni\x64\Debug\08jni.exe 或上一个增量链接没有生成它；正在执行完全链接
+            正在创建库 E:\VSProjects\08jni\x64\Debug\08jni.lib 和对象 E:\VSProjects\08jni\x64\Debug\08jni.exp
+         08jni.vcxproj -> E:\VSProjects\08jni\x64\Debug\08jni.exe
+     1>已完成生成项目“E:\VSProjects\08jni\08jni.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.63
