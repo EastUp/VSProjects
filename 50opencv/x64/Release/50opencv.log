@@ -1,4 +1,4 @@
-﻿生成启动时间为 2020/7/30 10:03:51。
+﻿生成启动时间为 2020/7/30 16:31:22。
      1>项目“E:\VSProjects\50opencv\50opencv.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt simple.cpp
@@ -12,4 +12,4 @@
 
 生成成功。
 
-已用时间 00:00:04.04
+已用时间 00:00:02.11
