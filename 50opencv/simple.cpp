@@ -185,7 +185,7 @@ using namespace std;
 // 亮度：亮暗的程度
 // 对比度: 图像对比度指的是 [1]  一幅图像中明暗区域最亮的白和最暗的黑之间不同亮度层级的测量，即指一幅图像灰度反差的大小
 int main(){
-	Mat src = imread("E:/test.jpg");
+	Mat src = imread("X:/test.jpg");
 	if (src.empty()){
 		cout << "src read error" << endl;
 		return -1;

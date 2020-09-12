@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\66OpenCV\Simple.cpp">
+    <ClCompile Include="Simple.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
