@@ -71,9 +71,10 @@ int main(){
 
 	// 归一化
 	int hist_h = 400;
-	int hist_w = 512; // 256 * 2
+	int hist_w = 512; // 256 * 2（2 代表画笔的大小）
 	int bin_w = hist_w / histSize; // 画笔大小
 	// alpha 最小值 
+	// beta 最大值
 	/*normalize(InputArray src, InputOutputArray dst, double alpha = 1, double beta = 0,
 	int norm_type = NORM_L2, int dtype = -1, InputArray mask = noArray());*/
 	// NORM_MINMAX 缩放到一定区域
@@ -83,12 +84,12 @@ int main(){
 
 	// 画到一张图中
 	Mat histImage(hist_h, hist_w, CV_8SC4, Scalar()); 
-	for (int i = 0; i < histSize; i++)
+	for (int i = 1; i < histSize; i++)
 	{
 		// 开始点，结束点 255
 		line(
 			histImage,
-			Point((i - 1)*bin_w, hist_h - hist_b.at<float>(i - 1)),
+			Point((i - 1)*bin_w, hist_h - hist_b.at<float>(i - 1)),// 图片的像素点 左上角才是 0,0
 			Point(i*bin_w, hist_h - hist_b.at<float>(i)),
 			Scalar(255, 0, 0), bin_w, LINE_AA);
 		line(
