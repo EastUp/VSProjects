@@ -76,7 +76,7 @@ JNIEXPORT void JNICALL Java_com_east_jni10_Sample_deleteGlobalRef
 }
 
 // 局部静态缓存
-/*JNIEXPORT void JNICALL Java_com_east_jni10_Sample_staticLocalCache
+JNIEXPORT void JNICALL Java_com_east_jni10_Sample_staticLocalCache
 (JNIEnv * env, jclass j_clz, jstring value){
 	// name 属性，赋值操作
 	static jfieldID jfid = NULL; // 局部静态缓存，不会反复的去获取 jfieldID
@@ -89,7 +89,7 @@ JNIEXPORT void JNICALL Java_com_east_jni10_Sample_deleteGlobalRef
 	}
 
 	(*env)->SetStaticObjectField(env,j_clz,jfid,value);
-}*/
+}
 
 
 // 全局静态缓存
@@ -98,11 +98,11 @@ static jfieldID f_name1_id = NULL;
 static jfieldID f_name2_id = NULL;
 
 
-JNIEXPORT void JNICALL Java_com_east_jni10_Sample_staticLocalCache
-(JNIEnv * env, jclass j_clz, jstring value){
-	// 因为是静态缓存，所以这个方法被反复调用，也不会反复的去获取 jfieldID
-	(*env)->SetStaticObjectField(env,j_clz,f_name_id,value);
-}
+//JNIEXPORT void JNICALL Java_com_east_jni10_Sample_staticLocalCache
+//(JNIEnv * env, jclass j_clz, jstring value){
+//	// 因为是静态缓存，所以这个方法被反复调用，也不会反复的去获取 jfieldID
+//	(*env)->SetStaticObjectField(env,j_clz,f_name_id,value);
+//}
 
 
 JNIEXPORT void JNICALL Java_com_east_jni10_Sample_initStaticCache

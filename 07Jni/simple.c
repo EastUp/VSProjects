@@ -18,7 +18,6 @@ JNIEXPORT jstring JNICALL Java_com_east_jni07_NdkSample_getSingnaturePassword
 
 JNIEXPORT void JNICALL Java_com_east_jni07_NdkSample1_changeName
 (JNIEnv * env, jobject jobj){
-
 	// 1. 获取 jclass
 	jclass j_clz = (*env)->GetObjectClass(env,jobj);
 	// 2. 获取 jfieldID
